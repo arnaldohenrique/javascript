@@ -1,0 +1,25 @@
+COMO SURGIU A INTERNET?
+Em 1970(durante a guerra fria) o presidente militar da época, decreto uma agencia de pesquisa tecnologica, "DARPA", a função dela era pesquisar tecnologias para a guerra, uma dessas tecnologias envolvia a segurança dos centros militares que é onde ficava os computadores e se por acaso a união soviética bombardear-se  o centro militar, todos os dados serião perdidos.
+
+A DARPA teve uma ideia de criar uma rede onde os centros militares se comunicavão entre si, assim caso um centro militar fosse perdido, teria um backup em outro.
+
+A rede criada pela DARPA foi chamada de ARPANET, uma rede essencialmente gerenciada pelo governo e por militares mas tinha muita universidade dentro.
+
+Com o tempo a rede cresceu muito a ponto do governo não conseguir mais dar conta, durante a história a ARPANET mudou de nome varias vezes, até se tornar o que é hoje conhecido como INTERNET.
+-----------------------
+
+COMO VEIO O JAVASCRIPT?
+Em 1993 o Tim Berners-Lee criou o HTML, protocolo HTTP e tambem fundou a WWW (Word Wide Web).
+
+Depois Mark Henderson criou um navegador chamado MOSAIC e 1 ano depois em 1994 Mark se junto com James H. Clark para fundar a NETSCAPE. NETSCAPE criou um navegador baseado no MOSAIC e que facilmente se tornou o navegador mais usado na época.
+
+NETSCAPE resolveu criar uma coisa, baseado numa necessidade, O HTML ERA MUITO ESTATICO. Em 1995, Brendan Eich tinha um projeto inicialmente chamado de Livescript, uma linguagem que desse mais funcionalidade ao simples HTML da época, ao mesmo tempo estava surgindo a linguagem JAVA que estava tendo um sucesso muito grande na midia(chamando a linguagem de linguagem do futuro). 
+
+NETSCAPE como uma jogada de marketing mudou o nome de Livescript pra JAVASCRIPT.
+--------------------------------
+
+ECMA?
+
+JAVASCRIPT fazendo muito sucesso, chamou a atenção da microsoft decidiu "copiar" o JAVASCRIPT, melhorando a linguagem de varias formas mas mudando apenas o nome para JSCRIPT, então a NETSCAPE pediu para o ECMA padronizar a linguagem, surgindo assim a ECMASCRIPT(ES).
+
+

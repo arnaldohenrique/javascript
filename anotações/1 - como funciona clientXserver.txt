@@ -1,0 +1,10 @@
+Quando você usa um aparelho para acessar a internet, você se torna um CLIENT.
+Sendo um client você esta usando um serviço que está sendo fornecido por um SERVIDOR.
+Os SERVIDORES é quem fornece os dados.
+
+Pra fazer esse acesso normalmente você usa um navegador( ex: google chrome), digitando a URL desejada, vai um pedido direto pro servidor pedindo os arquivos para mandar uma cópia pro navegador, seja ele um video, doc, foto, texto, sendo na maioria das vezes um documento HTML.
+Assim o navegador pega a cópia pra começar a trabalhar pra mostrar o efeito visual pra gerar o site.
+
+BASICAMENTE
+
+client usa navegador digitando url pra acessar o servidor pra mandar uma cópia e o navegador mostrar pra você visualmente.

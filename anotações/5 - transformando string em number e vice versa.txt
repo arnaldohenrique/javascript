@@ -1,0 +1,18 @@
+Transformando uma string em um number
+
+var n1 = Number.parseInt (window.prompt ('digite aqui um numero!'))
+var n1 = Number.parseFloat (window.prompt ('digite aqui um numero!'))
+var n1 = Number(window.prompt ('digite aqui um numero!’))
+
+Mas qual é a diferença entra “Number.parseInt”, “Number.parseFloat” e Number?
+
+// Number.parseInt: Numero Inteiro
+// Number.parseFloat: Numero com virgula
+// Number: JS vai decidir qual é
+________________________________________________________________________
+
+Transformando um number em uma string
+
+window.alert ('a soma dos numeros é: ' + soma.toString())  // Jeito mais antigo
+ou
+window.alert ('a soma dos numeros é: ' + String(soma))      // Jeito mais simples

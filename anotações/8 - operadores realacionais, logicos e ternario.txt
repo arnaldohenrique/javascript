@@ -1,0 +1,73 @@
+Operadores relacionais
+
+>                    //maior
+<                    //menor
+>=                 //maior ou igual
+<=                 //menor ou igual
+==                 //igual
+!=                  //diferente
+
+Lembrando que os valores relacionais sempre são booleanos, ou seja TRUE ou FALSE
+
+5 > 2      true
+7 < 4      false
+8 >= 8    true
+9 <=7     false
+5 == 5    true
+4 != 4     false
+
+Identidade:	//number == string?
+
+5 == 5         true
+5 == '5'        true
+5 === '5'      false
+'5' === '5'     true
+
+Operadores Lógicos:
+
+!	//negação (não)
+&&	//conjução (e)	
+||	//disjunção (ou)
+
+Negação:
+!true = false	//uma coisa não true
+!false = true	//uma coisa não false
+
+Conjunção:
+true&&true = true
+true&&false = false
+false&&true = false
+false&&false = false
+
+Disjunção:
+true||true = true
+true||false = true
+false||true = true
+false||false = false
+
+Precedência:
+() ** /
+> < >=
+!
+&&
+||
+
+Operador Ternario:
+?
+:
+
+Teste ? true : false
+
+var média = 5.0
+média >= 7.0 ? "Aprovado" : "Reprovado"
+"Reprovado"
+
+EXEMPLOS:
+
+var x = 8
+var res = x % 2 == 0 ? 5 : 9
+5
+
+var idade = 22
+var r = idade >=18 ? 'MAIOR' : 'MENOR'
+'MAIOR'

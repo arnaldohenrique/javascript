@@ -1,0 +1,45 @@
+ex:
+var a1 = 10
+O "=" nessa variavel significa receber.
+
+ex:
+var a1 = null
+O "null" nessa variavel significa que essa variavel está nula ou vazia.
+-----------------------------------------
+
+NOMES PARA VARIAVEL REGRAS:
+
+Podem começar com LETRA, $ ou _
+
+Não podem começar com NÚMEROS
+
+É possível usar LETRAS ou NÚMEROS
+
+É possível usar ACENTOS e SÍMBOLOS
+
+Não podem conter ESPAÇOS
+
+Não podem ser PALAVRAS RESERVADAS - palavras reservadas são aquelas que o javascript usa como comandos.
+-----------------------------------------
+
+DICAS:
+
+MAIÚSCULAS e MINUSCULAS fazem diferença
+
+Tente escolher NOMES COERENTES para as variáveis
+
+Evite se tornar um 'PROGRAMADOR ALFABETO' ou um 'PROGRAMADOR CONTADOR'
+-----------------------------------------
+
+TIPOS DE DADOS
+
+Number: 5 18 -12 0.5 -15.9 3.14 8.0
+
+String: "Google" 'JavaScript' `Maria`
+
+Boolean: true false
+
+OUTROS TIPOS DE DADOS
+
+null - undefined - object - function
+-----------------------------------------

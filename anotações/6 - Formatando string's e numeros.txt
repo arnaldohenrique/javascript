@@ -1,0 +1,20 @@
+Formatando Strings:
+
+var teste = 'java script’
+
+‘eu estou aprendendo’ + teste      //concatenação
+`eu estou aprendendo ${teste}` -> não esqueça de usar crase!    //template string
+teste.length                   // conta quantos caracteres tem na variável  
+teste.toUpperCase        // coloca tudo em maiúsculo
+teste.toLowerCase        // coloca tudo em minúsculo 
+
+________________________________________________________________________
+
+Formatando números:
+
+Var n1 = 1543.5
+
+n1.toFixed(2) -> 1543.50                                                          // Coloca em duas casas decimais (para colocar em mais ou menos casas troque o numero entre parênteses)
+n1.toLocaleString( ‘pt-BR’,{style: ‘currency’, currency: ‘BRL’} )    // Coloca o R$ na frente do numero (pode trocar entre outras moedas)
+n1.replace (‘.’, ‘,’)  -> 1543,5                                                   // Troca o ponto pela virgula
+

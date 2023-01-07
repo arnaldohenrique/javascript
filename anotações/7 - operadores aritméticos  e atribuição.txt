@@ -1,0 +1,52 @@
+Operadores:
+
+Tipos de operadores que vamos estudar:                                  //não são todos os operadores, existem mais.
+
+Aritméticos
+Atribuição
+relacionais
+lógicos
+ternarios
+
+________________________________________________________________________
+
+Operadores Aritméticos:
+ +     // Somar   
+  -    // Subtrair
+  *    // Multiplicação 
+  /    // divisão
+ %   // Resto de uma divisão 
+ **   // Potencia do primeiro numero elevado ao segundo
+
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2
+10 % 5 = 0
+10 ** 5 = 100000
+
+Precedencia dos operadores ↓    // da ordem prioritaria de cima pra baixo
+
+ ( ) 
+ **
+ /   *   %
+ +  -
+
+
+Auto Atribuições:                                                                               Forma Simplificada:
+
+var  n = 2                                                                                                var n = 2
+
+n = n + 4     // ele vai somar ele mesmo a 4                                  |     n   +=  6 
+n = n - 5     //ele vai pegar ele mesmo e subtrair 5                        |     n   -=  3
+n = n  * 4    //ele vai pegar ele mesmo e multiplicar por 4             |     n   *=  8
+n = n  / 2    //ele vai pegar ele mesmo e dividir por 2                    |     n   /=  1
+n = n ** 2   //ele vai pegar ele mesmo e elevar a 2 potência          |    n  **= 4
+n = n %  1  //ele vai pegar ele mesmo, dividir por 1 e dar o resto  |     n  %= 0
+
+outra simplificação:
+
+n++     // é a mesma coisa que n = n + 1 ou n += 1
+n—     //é a mesma coisa que n = n - 1 ou n -= 1
+++n    // ele vai somar antes
+—n    // ele vai diminuir antes

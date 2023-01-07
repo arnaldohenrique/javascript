@@ -1,0 +1,5 @@
+<script>
+	window.alert('mensagem') // PRA DISPARAR UM ALERTA
+	window.confirm('mensagem) // PRA DISPARAR UMA CONFIRMAÇÃO
+	window.pompt('mensagem) // PRA DISPARAR UMA PERGUNTA
+</script>
