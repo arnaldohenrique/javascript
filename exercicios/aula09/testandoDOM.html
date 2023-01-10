@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            color: rgb(44, 44, 44);
+            font: normal 20pt Arial;
+        }
+
+        #caixa {
+            background-color: rgb(255, 255, 228);
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -60%);
+
+            width: 900px;
+            height: 400px;
+            padding: 10px;
+            text-align: center;
+
+            border-radius: 10px;
+
+            box-sizing: border-box;
+        }
+
+        #amaldiçoado {
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="caixa">
+        <h1></h1>
+        <p>ME LIVREI DA <strong>MALDIÇÃO</strong>, AGORA ELA ESTÁ COM VOCÊ.</p>
+        <p>REPASSE ESSE CÓDIGO PARA OUTRA PESSOA PARA SE LIVRAR DA MALDIÇÃO.</p>
+        <p id="amaldiçoado">AMALDIÇOADO ATUAL:</p>
+    </div>
+
+    <script>
+        alert('ALERTA! VOCÊ PODERA SER INFECTADO.')
+        confirm('TEM CERTEZA QUE QUER PROSSEGUIR?')
+        var nome = prompt('QUAL SEU NOME?')
+        var h1 = document.getElementsByTagName('h1')[0]
+        var maldição = document.getElementsByTagName('p')[2]
+        h1.textContent = `OLÁ, ${nome}`
+        maldição.textContent = `AMALDIÇOADO ATUAL: ${nome}`
+
+    </script>
+</body>
+</html>
