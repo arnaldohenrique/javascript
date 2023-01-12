@@ -1,0 +1,32 @@
+    O que é um EVENTO?
+
+Um EVENTO é uma CONDIÇÃO que, quando verdadeira, fará a CHAMADA de uma FUNÇÃO.
+
+    Exemplos de EVENTOS:
+
+O Evento onmouseenter="" serve para executar alguma FUNÇÃO no momento em que o cliente ENTRAR COM O CURSOR DENTRO do elemento.
+
+O Evento onmousemove="" serve para executar alguma FUNÇÃO no momento em que o cliente MOVER O CURSOR DENTRO do elemento.
+
+O Evento onmousedown="" serve para executar alguma FUNÇÃO no momento em que o cliente PRESSIONAR O CLICK DENTRO do elemento.
+
+O Evento onmouseup="" serve para executar alguma FUNÇÃO no momento em que o cliente SOLTAR O CLICK DENTRO do elemento.
+
+O Evento onclick="" serve para executar alguma FUNÇÃO no momento em que o cliente CLICAR DENTRO do elemento.
+
+O Evento onmouseout="" serve para executar alguma FUNÇÃO no momento em que o cliente SAIR COM O CURSOR DE DENTRO do elemento.
+
+O Evento onmouseover="" serve para executar alguma FUNÇÃO enquanto o cliente MANTER O CURSOR SOBRE o elemento.
+____________________________
+
+    O que é uma FUNÇÃO?
+
+Funções são subprogramas que podem RECEBER PARÂMETROS e RETORNAR um RESULTADO. São AÇÕES executadas assim que são CHAMADAS ou em decorrência de algum EVENTO. É um BLOCO de CÓDIGOS projetado para EXECUTAR uma TAREFA ou CALCULAR um VALOR.
+____________________________
+
+   Sobre o addEventListener()
+
+O método  addEventListener()  serve para "PLANTAR" uma "ESCUTA" em um ELEMENTO. Esta "escuta" CHAMARÁ uma FUNÇÃO no momento em que o EVENTO, definido como PARÂMETRO, seja VERDADEIRO.
+
+atenção: no parâmetro EVENT não usa-se o prefixo "on". Use: "click" ao invés de: "onclick".
+
