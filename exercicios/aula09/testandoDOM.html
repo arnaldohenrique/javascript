@@ -40,18 +40,17 @@
         <h1></h1>
         <p>ME LIVREI DA <strong>MALDIÇÃO</strong>, AGORA ELA ESTÁ COM VOCÊ.</p>
         <p>REPASSE ESSE CÓDIGO PARA OUTRA PESSOA PARA SE LIVRAR DA MALDIÇÃO.</p>
-        <p id="amaldiçoado">AMALDIÇOADO ATUAL:</p>
+        <p id="amaldiçoado">Amaldiçoado atual:</p>
     </div>
 
     <script>
         alert('ALERTA! VOCÊ PODERA SER INFECTADO.')
         confirm('TEM CERTEZA QUE QUER PROSSEGUIR?')
-        var nome = prompt('QUAL SEU NOME?')
+        var nome = prompt('QUAL SEU NOME?').toLocaleUpperCase()
         var h1 = document.getElementsByTagName('h1')[0]
         var maldição = document.getElementsByTagName('p')[2]
-        h1.textContent = `OLÁ, ${nome}`
-        maldição.textContent = `AMALDIÇOADO ATUAL: ${nome}`
-
+        h1.textContent = 'OLÁ, ' + nome
+        maldição.textContent = `${maldição.textContent} ${nome}`
     </script>
 </body>
 </html>
