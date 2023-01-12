@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcula tudo</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1>CALCULANDO</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="CALCULAR" onclick="somar()">
+    <div id="res">
+        Resultado :
+    </div>
+    <input type="number" name="txtn3" id="txtn3"> -
+    <input type="number" name="txtn4" id="txtn4">
+    <input type="button" value="CALCULAR" onclick="subtrair()">
+    <div class="resu">
+        Resultado :
+    </div>
+
+    <script>
+        function somar() {
+            var tn1 = document.getElementById('txtn1')
+            var tn2 = document.getElementById('txtn2')
+            var res = document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var r = n1 + n2
+            res.innerHTML = `Resultado : <strong>${r}</strong>`
+        }
+
+        function subtrair() {
+            var tn3 = document.getElementById('txtn3')
+            var tn4 = document.getElementById('txtn4')
+            var resu = document.querySelector('input.resu')
+            var n3 = Number(tn3.value)
+            var n4 = Number(tn4.value)
+            var r1 = n3 - n4
+            resu.innerHTML = `Resultado : <strong>${r1}</strong>`
+        }
+    </script>
+    
+</body>
+</html>
