@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1>CALCULANDO</h1>
-    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn1" id="txtn1"> -
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="CALCULAR" onclick="somar()">
     <div id="res">
@@ -20,7 +20,7 @@
     <input type="number" name="txtn3" id="txtn3"> -
     <input type="number" name="txtn4" id="txtn4">
     <input type="button" value="CALCULAR" onclick="subtrair()">
-    <div class="resu">
+    <div id="resu">
         Resultado :
     </div>
 
@@ -31,18 +31,18 @@
             var res = document.getElementById('res')
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
-            var r = n1 + n2
+            var r = n1 - n2
             res.innerHTML = `Resultado : <strong>${r}</strong>`
         }
 
         function subtrair() {
             var tn3 = document.getElementById('txtn3')
             var tn4 = document.getElementById('txtn4')
-            var resu = document.querySelector('input.resu')
+            var resu = document.getElementById('resu')
             var n3 = Number(tn3.value)
             var n4 = Number(tn4.value)
-            var r1 = n3 - n4
-            resu.innerHTML = `Resultado : <strong>${r1}</strong>`
+            var r = n3 - n4
+            resu.innerHTML = `Resultado : <strong>${r}</strong>`
         }
     </script>
     
