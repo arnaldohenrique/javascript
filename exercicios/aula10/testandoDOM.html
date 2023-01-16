@@ -11,16 +11,31 @@
 </head>
 <body>
     <h1>CALCULANDO</h1>
-    <input type="number" name="txtn1" id="txtn1"> -
+    <input type="number" name="txtn1" id="txtn1"> +
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="CALCULAR" onclick="somar()">
     <div id="res">
         Resultado :
     </div>
+
     <input type="number" name="txtn3" id="txtn3"> -
     <input type="number" name="txtn4" id="txtn4">
     <input type="button" value="CALCULAR" onclick="subtrair()">
     <div id="resu">
+        Resultado :
+    </div>
+
+    <input type="number" name="txtn5" id="txtn5"> x
+    <input type="number" name="txtn6" id="txtn6">
+    <input type="button" value="CALCULAR" onclick="vezes()">
+    <div id="resul">
+        Resultado :
+    </div>
+
+    <input type="number" name="txtn7" id="txtn7"> /
+    <input type="number" name="txtn8" id="txtn8">
+    <input type="button" value="CALCULAR" onclick="dividir()">
+    <div id="result">
         Resultado :
     </div>
 
@@ -31,7 +46,7 @@
             var res = document.getElementById('res')
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
-            var r = n1 - n2
+            var r = n1 + n2
             res.innerHTML = `Resultado : <strong>${r}</strong>`
         }
 
@@ -43,6 +58,26 @@
             var n4 = Number(tn4.value)
             var r = n3 - n4
             resu.innerHTML = `Resultado : <strong>${r}</strong>`
+        }
+
+        function vezes() {
+            var tn5 = document.getElementById('txtn5')
+            var tn6 = document.getElementById('txtn6')
+            var resul = document.getElementById('resul')
+            var n5 = Number(tn5.value)
+            var n6 = Number(tn6.value)
+            var r = n5 * n6
+            resul.innerHTML = `Resultado : <strong>${r}</strong>`
+        }
+
+        function dividir() {
+            var tn7 = document.getElementById('txtn7')
+            var tn8 = document.getElementById('txtn8')
+            var result = document.getElementById('result')
+            var n7 = Number(tn7.value)
+            var n8 = Number(tn8.value)
+            var r = n7 / n8
+            result.innerHTML = `Resultado : <strong>${r}</strong>`
         }
     </script>
     
