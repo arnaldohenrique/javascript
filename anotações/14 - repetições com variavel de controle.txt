@@ -1,0 +1,13 @@
+Estrutura de repetição com variavel de controle :
+
+	for
+	
+Esta estrutura faz o teste lógico ANTES de rodar o programa.
+
+Enquanto (for) condição1 for VERDADEIRA, execute o Bloco A.
+
+ilustração:
+	for(inicio; teste; incremento){
+	Bloco A
+	}
+A diferença entre "for" e "while" é que no "for", depois de fazer a repetição ele faz o *incremento.
