@@ -33,16 +33,16 @@ Precedencia dos operadores ↓    // da ordem prioritaria de cima pra baixo
  +  -
 
 
-Auto Atribuições:                                                                               Forma Simplificada:
+Auto Atribuições:                                                                               Forma                                                                                                                    Simplificada:
 
-var  n = 2                                                                                                var n = 2
+var  n = 2                                                                                          var n = 2
 
-n = n + 4     // ele vai somar ele mesmo a 4                                  |     n   +=  6 
-n = n - 5     //ele vai pegar ele mesmo e subtrair 5                        |     n   -=  3
-n = n  * 4    //ele vai pegar ele mesmo e multiplicar por 4             |     n   *=  8
-n = n  / 2    //ele vai pegar ele mesmo e dividir por 2                    |     n   /=  1
-n = n ** 2   //ele vai pegar ele mesmo e elevar a 2 potência          |    n  **= 4
-n = n %  1  //ele vai pegar ele mesmo, dividir por 1 e dar o resto  |     n  %= 0
+n = n + 4     // ele vai somar ele mesmo a 4                                  |     n   +=  4 
+n = n - 5     //ele vai pegar ele mesmo e subtrair 5                        |     n   -=  5
+n = n  * 4    //ele vai pegar ele mesmo e multiplicar por 4             |     n   *=  4
+n = n  / 2    //ele vai pegar ele mesmo e dividir por 2                    |     n   /=  2
+n = n ** 2   //ele vai pegar ele mesmo e elevar a 2 potência          |    n  **= 2
+n = n %  1  //ele vai pegar ele mesmo, dividir por 1 e dar o resto   |     n  %= 1
 
 outra simplificação:
 
