@@ -17,6 +17,47 @@ section {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.356);
 }
 
+#conta {
+    width: 500px;
+}
+
+.input {
+    text-align: center;
+    padding: 10px;
+}
+
+.input > input {
+    display: block;
+
+    border: 1px solid black;
+
+    height: 30px;
+    width: 100px;
+    margin: auto;
+
+}
+
+.botao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.botao > input {
+    display: block;
+    margin: auto;
+
+    height: 28px;
+    width: 60px;
+
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(112, 112, 112);
+    background-color: white;
+
+
+    cursor: pointer;
+}
+
 footer {
     color: white;
     text-align: center;
