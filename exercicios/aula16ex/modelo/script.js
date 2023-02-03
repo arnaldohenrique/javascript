@@ -1,21 +1,23 @@
 function adiciona() {
     var num = document.getElementById('num')
-    var res = document.getElementById('res')
     var ana = document.getElementById('analisa')
 
-    if (num.value.length == 0) {
+    if (num.value.length == 0) return window.alert('Por favor, digite um número!'); //caso não aja valores
+    var n = Number(num.value)
 
-        window.alert('Por favor, digite um número!') //caso não aja valores
+    if (n > 100 || n < 1) return window.alert('Digite um valor aceitável!');
+        
+    var item = document.createElement('option')
+    item.text = `Valor ${n} adicionado`
+    ana.appendChild(item)
+}
 
-    }else {
-        var n = Number(num.value)
+function finaliza() {
+    var f = [n]
+    var res = document.getElementById('res')
 
-        if (n > 100 || n < 1){
-            window.alert('Digite um valor aceitável!')
-        }else {
-            var item = document.createElement('option')
-            item.text = `Valor ${n} adicionado`
-            ana.appendChild(item)
-        }
-    }
+
+
+    res.innerHTML = `Ao todo temos ${f.length} números cadastrados aqui`
+
 }
