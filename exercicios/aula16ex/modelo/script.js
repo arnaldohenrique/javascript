@@ -1,23 +1,28 @@
-function adiciona() {
-    var num = document.getElementById('num')
-    var ana = document.getElementById('analisa')
+let num = document.getElementById('fnum')
+let lista = document.getElementById('flista')
+let res = document.getElementById('res')
+let valores = []
 
-    if (num.value.length == 0) return window.alert('Por favor, digite um número!'); //caso não aja valores
-    var n = Number(num.value)
-
-    if (n > 100 || n < 1) return window.alert('Digite um valor aceitável!');
-        
-    var item = document.createElement('option')
-    item.text = `Valor ${n} adicionado`
-    ana.appendChild(item)
+function isNumero(n) {
+    if(Number(n) >= 1 && Number(n) <= 100) {
+        return true
+    }else {
+        return false
+    }
 }
 
-function finaliza() {
-    var f = [n]
-    var res = document.getElementById('res')
+function inLista(n, l) {
+    if(l.indexOf(Number(n)) > -1) {
+        return true
+    }else {
+        return false
+    }
+}
 
-
-
-    res.innerHTML = `Ao todo temos ${f.length} números cadastrados aqui`
-
+function adicionar() {
+    if(isNumero(num.value) && !inLista(num.value, valores)) {
+        window.alert('ok')
+    } else {
+        window.alert('Valor inválido ou já encontrado na lista.')
+    }
 }
